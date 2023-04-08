@@ -1,0 +1,92 @@
+.mainContainer{
+    /* border:1px solid black; */
+    border-radius:5px;
+    box-shadow: 0px 0px 10px 0px;
+    width: 331px;
+    height: 51vh;
+}
+.headingStrip{
+    border: 1px solid black;
+    margin: 6px;
+    margin-top:3px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: helvetica;
+    background-color: #b2aeef;
+    color: white;
+}
+.inputSection{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.input{
+    width: 252px;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 5px;
+    overflow:hidden;
+}
+.inner-input{
+    width: 100%;
+    text-align: center;
+    border: none;
+}
+.addBtn{
+    border: 1px solid black;
+    width: 31px;
+    border-radius: 17px;
+}
+.inner-btn{
+    width: 100%;
+    border-radius: 17px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    font-family: helvetica;
+    color: white;
+    background-color: #b2aeef;
+}
+.listContainer{
+   overflow: auto;
+    height: 300px;
+    width: 328px;
+}
+.lists{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 7px;
+    list-style:none;
+}
+.outer-list-element{
+        padding: 0px;
+        margin:10px;
+}
+.listElement{
+    border: 1px solid;
+    width: 267px;
+    list-style: none;
+    margin: 6px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: helvetica;
+}
+.delete-btn{
+    border-radius: 9px;
+    background-color: #47cbed;
+    color: white;
+    font-size: 16px;
+    font-family: helvetica;
+}
+.totalCount{
+    font-size: 17px;
+    font-family: hevetica;
+    background-color: #b2aeef;
+    color: white;
+}
